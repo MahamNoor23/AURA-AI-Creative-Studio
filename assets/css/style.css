@@ -230,6 +230,35 @@ backdrop-filter: blur(10px);
 -webkit-backdrop-filter: blur(10px);
 border: 1px solid rgba(255, 255, 255, 0.1);
 }
+.banner-box.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+.animate-box {
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+/* First and third come from right */
+.right-first-box.animate-box,
+.right-third-box.animate-box {
+    transform: translateX(100px);
+}
+
+/* Second comes from left */
+.right-second-box.animate-box {
+    transform: translateX(-100px);
+}
+
+/* Final position */
+.animate-box.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
 .hero-banner-right {
     position: relative;
 }
