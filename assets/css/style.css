@@ -64,7 +64,7 @@ body{
     font-family: "Space Grotesk", sans-serif;
     /* font-family: Space Mono; */
     background-color: var( --color-bg);
-    padding:5px  25px;
+    padding:5px  30px;
 }
 .navbar-nav .nav-link {
     color: var(--color-text);
@@ -81,11 +81,18 @@ body{
     width: 200px;
     height: auto;
 }
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 .main-btn{
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 12px;
-    height: 44px;
     padding: 10px 15px;
     color: var( --color-text);
     background: rgba(255, 255, 255, 0.025);
@@ -120,7 +127,6 @@ border-color: var(--color-violet-a);
 
 /* banner css start */
 .hero-banner {
-    min-height: 700px;
     padding-top: 70px;
 }
 
@@ -184,10 +190,10 @@ border-color: var(--color-violet-a);
     color: var(--color-text);
 }
 .banner-btn{
-       display: inline-flex;
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 12px;
-    height: 44px;
     padding: 10px 15px;
     color: var( --color-text);
     background: var(--gradient-button);
@@ -231,7 +237,7 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 .right-first-box {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 13%;
     float: none;
 }
 
@@ -239,7 +245,7 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 .right-second-box {
     position: absolute;
     top: 35%;
-    left: 5%;
+    left: 14%;
     float: none;
 }
 
@@ -247,7 +253,7 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 .right-third-box {
     position: absolute;
     bottom: 5%;
-    right: 0;
+    right: 13%;
     float: none;
 }
 .right-sub-heading {
@@ -260,4 +266,88 @@ border: 1px solid rgba(255, 255, 255, 0.1);
     background: var(--gradient-button);
     padding: 10px;
     border-radius: 5px;
+}
+@media screen and (min-width: 992px) and (max-width: 1299px){
+    body{
+    padding:5px;
+}
+    .btn.banner-btn {
+    width: 100%;
+    }
+  .main-btn {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+       body{
+    padding:5px;
+}
+    .banner-box{
+        max-width: 50%;
+        padding: 15px 20px;
+    }
+    .banner-sub-heading {
+    font-size: 16px;
+   }
+    .banner-box .content-para {
+    font-size: 14px;
+    }
+    .right-sub-heading {
+    font-size: 16px;
+    }
+    .btn.banner-btn {
+    width: 100%;
+    font-size: 13px;
+    }
+  .main-btn {
+    width: 100%;
+    font-size: 13px;
+  }
+  .right-second-box {
+    top: 35%;
+    left: 10%;
+}
+.right-third-box {
+    bottom: 5%;
+}
+}
+@media screen and (min-width: 300px) and (max-width: 767px){
+    body{
+    padding:5px;
+}
+    .banner-box{
+        max-width: 60%;
+        padding: 6px 12px;
+    }
+    .banner-box .content-para {
+    font-size: 12px;
+    }
+    .right-sub-heading {
+    font-size: 15px;
+    }
+    .right-first-box {
+    position: relative;
+    top: 0px;
+    right: 0;
+    margin-top: 15px;
+    }
+    .right-second-box {
+       position: relative;
+       top: 0px;
+       left: 40%;
+       margin-top: 15px;
+    }
+    .right-third-box {
+       position: relative;
+       top: 0px;
+       left: 0px;
+       margin-top: 15px;
+    }
+    .btn.banner-btn {
+    width: 100%;
+    }
+  .main-btn {
+    width: 100%;
+  }
 }
