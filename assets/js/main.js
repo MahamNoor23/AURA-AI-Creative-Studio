@@ -51,3 +51,32 @@ function animateNumbers() {
 
 // START THE COUNTER
 animateNumbers();
+// Stats icons animation
+const statsIcons = document.querySelectorAll(".stats-icon-box");
+
+statsIcons.forEach((icon, index) => {
+
+    // Starting position
+    let startTime = performance.now();
+
+    // Different movement for each icon
+    const speed = 0.0015 + (index * 0.0003);
+    const distance = 8 + (index * 2);
+
+    function moveIcon(currentTime) {
+
+        const elapsed = currentTime - startTime;
+
+        // Create smooth up/down movement
+        const movement = Math.sin(elapsed * speed) * distance;
+
+        // Move the icon
+        icon.style.transform = `translateY(${movement}px)`;
+
+        // Keep animation running
+        requestAnimationFrame(moveIcon);
+    }
+
+    requestAnimationFrame(moveIcon);
+
+});
