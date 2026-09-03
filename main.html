@@ -1,201 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AURA</title>
-    <!-- Bootstrap style link -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-     <!-- Style sheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="" class="img-fluid logo"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Services</a>
-        <a class="nav-link" href="#">Work</a>
-        <a class="nav-link" href="#">Process</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Contact</a>
-      </div>
-    </div>
-              <a class="btn main-btn" type="submit">Let's talk <img src="assets/img/right.png" /></a>
-  </div>
-</nav>
 
-<!-- Main banner -->
- <section class="container-fluid">
-      <div class="hero-banner">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA</title>
+  <!-- Bootstrap style link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Style sheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="" class="img-fluid logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#">Work</a>
+          <a class="nav-link" href="#">Process</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Contact</a>
+        </div>
+      </div>
+      <a class="btn main-btn" type="submit">Let's talk <img src="assets/img/right.png" /></a>
+    </div>
+  </nav>
+
+  <!-- Main banner -->
+  <section class="container-fluid">
+    <div class="hero-banner">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="hero-banner-left">
-              <h3 class="banner-sub-heading">AI • DESIGN • DEVELOPMENT</h3>
+          <div class="hero-banner-left">
+            <h3 class="banner-sub-heading">AI • DESIGN • DEVELOPMENT</h3>
             <h1 class="banner-main-heading">WE BUILD DIGITAL WORLDS.</h1>
-            <p class="content-para mb-5">We create immersive digital experiences where strategy, design, technology and motion come together.</p>
+            <p class="content-para mb-5">We create immersive digital experiences where strategy, design, technology and
+              motion come together.</p>
             <div>
               <a class="btn banner-btn mb-3" type="submit">EXPLORE OUR WORK <img src="assets/img/right.png" /></a>
               <a class="btn main-btn mb-3">Our Services</a>
             </div>
-            </div>
+          </div>
 
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12 ">
           <div class="hero-banner-right">
-          <div class="right-first-box banner-box animate-box">
-            <img class="mb-4 img-fluid banner-icon-box" src="assets/img/artificial-intelligence.png" alt="">
-            <h3 class="right-sub-heading">AI EXPERIENCE</h3>
-            <p class="content-para"> Intelligent digital experiences design to connect, adapt and perform. </p>
-          </div>
-          <div class="right-second-box banner-box animate-box">
-            <img class="mb-4 img-fluid banner-icon-box" src="assets/img/digital-services.png" alt="">
-            <h3 class="right-sub-heading">Digital Design</h3>
-            <p class="content-para"> Beautiful Interfaces that connect & inspire.</p>
-          </div>
-          <div class="right-third-box banner-box animate-box">
-            <img class="mb-4 img-fluid banner-icon-box" src="assets/img/web-design.png" alt="">
-            <h3 class="right-sub-heading">Web Development</h3>
-            <p class="content-para">High-performance websites bullt for the fature. </p>
-          </div>
+            <div class="right-first-box banner-box animate-box">
+              <img class="mb-4 img-fluid banner-icon-box" src="assets/img/artificial-intelligence.png" alt="">
+              <h3 class="right-sub-heading">AI EXPERIENCE</h3>
+              <p class="content-para"> Intelligent digital experiences design to connect, adapt and perform. </p>
+            </div>
+            <div class="right-second-box banner-box animate-box">
+              <img class="mb-4 img-fluid banner-icon-box" src="assets/img/digital-services.png" alt="">
+              <h3 class="right-sub-heading">Digital Design</h3>
+              <p class="content-para"> Beautiful Interfaces that connect & inspire.</p>
+            </div>
+            <div class="right-third-box banner-box animate-box">
+              <img class="mb-4 img-fluid banner-icon-box" src="assets/img/web-design.png" alt="">
+              <h3 class="right-sub-heading">Web Development</h3>
+              <p class="content-para">High-performance websites bullt for the fature. </p>
+            </div>
           </div>
 
         </div>
+      </div>
     </div>
+
+
+  </section>
+  <section class="stats-section">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="stats-box">
+            <img class="mb-4 img-fluid stats-icon-box" src="assets/img/project.png" alt="">
+            <h2 class="stats-number" data-target="120">0+</h2>
+            <p class="stats-text">Projects Completed</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="stats-box">
+            <img class="mb-4 img-fluid stats-icon-box" src="assets/img/client.png" alt="">
+            <h2 class="stats-number" data-target="80">0+</h2>
+            <p class="stats-text">Happy Clients</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="stats-box">
+            <img class="mb-4 img-fluid stats-icon-box" src="assets/img/rocket.png" alt="">
+            <h2 class="stats-number" data-target="5">0+</h2>
+            <p class="stats-text">Years of Experience</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="stats-box">
+            <img class="mb-4 img-fluid stats-icon-box" src="assets/img/countries.png" alt="">
+            <h2 class="stats-number" data-target="15">0+</h2>
+            <p class="stats-text">Countries Served</p>
+          </div>
+        </div>
+
+      </div>
     </div>
- 
+  </section>
 
- </section>
- <section class="stats-section">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="stats-box">
-          <img class="mb-4 img-fluid stats-icon-box" src="assets/img/project.png" alt="">
-          <h2 class="stats-number" data-target="120">0+</h2>
-          <p class="stats-text">Projects Completed</p>
+  <!-- Services Section -->
+  <section class="services-section mt-50">
+    <div class="container-fluid">
+      <h3 class="banner-sub-heading text-center">What We Do</h3>
+      <h2 class="sub-title text-center">Services That Empower Your Brand</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <div class="services-box">
+            <img class="mb-4 img-fluid services-icon-box" src="assets/img/ai-sol.png" alt="">
+            <h3 class="services-sub-heading">AI Solutions</h3>
+            <p class="content-para">Custom Al models, automation, and intelligent systems that solve real business
+              problems.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <div class="services-box">
+            <img class="mb-4 img-fluid services-icon-box" src="assets/img/digital-design.png" alt="">
+            <h3 class="services-sub-heading">Digital Design</h3>
+            <p class="content-para">UI/UX design that is beautiful, intuitive and conversion focused.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <div class="services-box">
+            <img class="mb-4 img-fluid services-icon-box" src="assets/img/web-dev.png" alt="">
+            <h3 class="services-sub-heading">Web Development</h3>
+            <p class="content-para">Fast, secure and scalable websites built with modem technologies.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <div class="services-box">
+            <img class="mb-4 img-fluid services-icon-box" src="assets/img/branding.png" alt="">
+            <h3 class="services-sub-heading">Branding</h3>
+            <p class="content-para">Brand identity, strategy and Visual systems that make your brand unforgettable</p>
+          </div>
         </div>
       </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="stats-box">
-          <img class="mb-4 img-fluid stats-icon-box" src="assets/img/client.png" alt="">
-          <h2 class="stats-number" data-target="80">0+</h2>
-          <p class="stats-text">Happy Clients</p>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="stats-box">
-          <img class="mb-4 img-fluid stats-icon-box" src="assets/img/rocket.png" alt="">
-          <h2 class="stats-number" data-target="5">0+</h2>
-          <p class="stats-text">Years of Experience</p>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="stats-box">
-          <img class="mb-4 img-fluid stats-icon-box" src="assets/img/countries.png" alt="">
-          <h2 class="stats-number" data-target="15">0+</h2>
-          <p class="stats-text">Countries Served</p>
-        </div>
+      <div class="text-center mt-3">
+        <a class="btn main-btn ">Our Services</a>
       </div>
 
     </div>
+  </section>
+
+  <!-- Feautured Projects -->
+  <section class=" mt-50">
+    <div class="container-fluid">
+      <h3 class="banner-sub-heading text-center">FEATURED PROJECTS</h3>
+      <h2 class="sub-title text-center">WORK THAT SPEAKS FOR ITSELF</h2>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+  <img src="assets/img/01-ai-analytics-platform.png" class="project-card-img" alt="...">
+  <div class="project-card-body">
+    <h5 class="project-card-title">AI Analytics Platform</h5>
+    <p class="project-card-content">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <h6 class="project-card-subtitle">AI SOLUTIONS</h6>
   </div>
-</section>
-
-<!-- Services Section -->
-<section class="services-section mt-50">
-  <div class="container-fluid">
-          <h3 class="banner-sub-heading text-center">What We Do</h3>
-          <h2 class="sub-title text-center">Services That Empower Your Brand</h2>
-          <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="services-box">
-                <img class="mb-4 img-fluid services-icon-box" src="assets/img/ai-sol.png" alt="">
-                <h3 class="services-sub-heading">AI Solutions</h3>
-                <p class="content-para">Custom Al models, automation, and intelligent systems that solve real business problems.</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="services-box">
-                <img class="mb-4 img-fluid services-icon-box" src="assets/img/digital-design.png" alt="">
-                <h3 class="services-sub-heading">Digital Design</h3>
-                <p class="content-para">UI/UX design that is beautiful, intuitive and conversion focused.</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="services-box">
-                <img class="mb-4 img-fluid services-icon-box" src="assets/img/web-dev.png" alt="">
-                <h3 class="services-sub-heading">Web Development</h3>
-                <p class="content-para">Fast, secure and scalable websites built with modem technologies.</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="services-box">
-                <img class="mb-4 img-fluid services-icon-box" src="assets/img/branding.png" alt="">
-                <h3 class="services-sub-heading">Branding</h3>
-                <p class="content-para">Brand identity, strategy and Visual systems that make your brand unforgettable</p>
-              </div>
+</div>
+         
+        </div>
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+            <img src="assets/img/02-fintech-mobile-app.png" class="project-card-img" alt="...">
+            <div class="project-card-body">
+              <h5 class="project-card-title">Fintech Mobile App</h5>
+              <p class="project-card-content">A secure and intuitive financial experience designed for seamless payments, insights and real-time tracking.</p>
+              <h6 class="project-card-subtitle">MOBILE APP</h6>
             </div>
           </div>
-        <div class="text-center mt-3">
-          <a class="btn main-btn ">Our Services</a>
         </div>
- 
-  </div>
-</section>
-
-<!-- Feautured Projects -->
-<section class="services-section mt-50">
-  <div class="container-fluid">
-          <h3 class="banner-sub-heading text-center">Selected Work</h3>
-          <h2 class="sub-title text-center">Featured Projects</h2>
-          <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="services-box">
-                <img class="mb-4 img-fluid services-icon-box" src="assets/img/ai-sol.png" alt="">
-                <h3 class="services-sub-heading">AI Solutions</h3>
-                <p class="content-para">Custom Al models, automation, and intelligent systems that solve real business problems.</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="services-box">
-                <img class="mb-4 img-fluid services-icon-box" src="assets/img/digital-design.png" alt="">
-                <h3 class="services-sub-heading">Digital Design</h3>
-                <p class="content-para">UI/UX design that is beautiful, intuitive and conversion focused.</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="services-box">
-                <img class="mb-4 img-fluid services-icon-box" src="assets/img/web-dev.png" alt="">
-                <h3 class="services-sub-heading">Web Development</h3>
-                <p class="content-para">Fast, secure and scalable websites built with modem technologies.</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div class="services-box">
-                <img class="mb-4 img-fluid services-icon-box" src="assets/img/branding.png" alt="">
-                <h3 class="services-sub-heading">Branding</h3>
-                <p class="content-para">Brand identity, strategy and Visual systems that make your brand unforgettable</p>
-              </div>
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+            <img src="assets/img/03-ecommerce-redesign.png" class="project-card-img" alt="...">
+            <div class="project-card-body">
+              <h5 class="project-card-title">Ecommerce Redesign</h5>
+              <p class="project-card-content">A conversion-focused ecommerce experience combining premium visuals with a frictionless shopping journey.</p>
+              <h6 class="project-card-subtitle">WEB DESIGN</h6>
             </div>
           </div>
+        </div>
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+            <img src="assets/img/04-aura-brand-identity.png" class="project-card-img" alt="...">
+            <div class="project-card-body">
+              <h5 class="project-card-title">AURA Brand Identity</h5>
+              <p class="project-card-content">A complete visual identity created for a modern luxury technology and creative studio.</p>
+              <h6 class="project-card-subtitle">BRANDING</h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+            <img src="assets/img/05-project-management-saas.png" class="project-card-img" alt="...">
+            <div class="project-card-body">
+              <h5 class="project-card-title">Project Management SaaS</h5>
+              <p class="project-card-content">A powerful SaaS experience designed to help teams organize projects, tasks and collaboration.</p>
+              <h6 class="project-card-subtitle">WEB APPLICATION</h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+            <img src="assets/img/06-travel-website.png" class="project-card-img" alt="...">
+            <div class="project-card-body">
+              <h5 class="project-card-title">Travel Website</h5>
+              <p class="project-card-content">An immersive travel platform combining cinematic visuals, interactive exploration and intuitive navigation.</p>
+              <h6 class="project-card-subtitle">WEB DESIGN</h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+            <img src="assets/img/07-ai-chatbot-assistant.png" class="project-card-img" alt="...">
+            <div class="project-card-body">
+              <h5 class="project-card-title">AI Chatbot Assistant</h5>
+              <p class="project-card-content">An intelligent conversational assistant designed to automate support and create better customer experiences.</p>
+              <h6 class="project-card-subtitle">AI SOLUTIONS</h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+            <img src="assets/img/08-fitness-tracking-app.png" class="project-card-img" alt="...">
+            <div class="project-card-body">
+              <h5 class="project-card-title">Fitness Tracking App</h5>
+              <p class="project-card-content">A modern fitness experience that helps users track workouts, monitor progress and achieve their goals.</p>
+              <h6 class="project-card-subtitle">MOBILE APP</h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+            <img src="assets/img/09-real-estate-platform.png" class="project-card-img" alt="...">
+            <div class="project-card-body">
+              <h5 class="project-card-title">Real Estate Platform</h5>
+              <p class="project-card-content">A premium property platform featuring advanced search, property discovery and immersive digital experiences.</p>
+              <h6 class="project-card-subtitle">WEB DESIGN</h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+            <img src="assets/img/10-crypto-dashboard.png" class="project-card-img" alt="...">
+            <div class="project-card-body">
+              <h5 class="project-card-title">Crypto Dashboard</h5>
+              <p class="project-card-content">A real-time financial dashboard designed to visualize market data, portfolio performance and digital assets.</p>
+              <h6 class="project-card-subtitle">WEB APPLICATION</h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+            <img src="assets/img/11-restaurant-website.png" class="project-card-img" alt="...">
+            <div class="project-card-body">
+              <h5 class="project-card-title">Restaurant Website</h5>
+              <p class="project-card-content">A sophisticated restaurant experience built around cinematic food imagery, storytelling and reservations.</p>
+              <h6 class="project-card-subtitle">WEB DESIGN</h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card project-card" style="width: 28rem;">
+            <img src="assets/img/12-creative-agency-website.png" class="project-card-img" alt="...">
+            <div class="project-card-body">
+              <h5 class="project-card-title">Creative Agency Website</h5>
+              <p class="project-card-content">An immersive agency website designed to showcase creative work through bold visuals and motion.</p>
+              <h6 class="project-card-subtitle">WEB DESIGN</h6>
+            </div>
+          </div>
+        </div>
+        
+      </div>
 
- 
-  </div>
-</section>
 
-<!-- Bootstarp script link -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
- <!-- Main js file -->
-<script src="assets/js/main.js"></script>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- Bootstarp script link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <!-- Main js file -->
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
